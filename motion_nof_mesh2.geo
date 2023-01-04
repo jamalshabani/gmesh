@@ -20,10 +20,10 @@ Line(9) = {4, 7};
 Curve Loop(11) = {1, 2, 3, 4, 5, 6, 7, 8};
 Curve Loop(12) = {-5, -4, 9, -6};
 
-Plane Surface(1) = {11};
-Plane Surface(2) = {12};
+Plane Surface(13) = {11};
+Plane Surface(14) = {12};
 
 
 Physical Curve("left", 7) = {1};
-Physical Surface("beam", 3) = {1};
-Physical Surface("omega", 4) = {2};
+Physical Surface("beam", 3) = {13};
+Physical Surface("omega", 4) = {14};
