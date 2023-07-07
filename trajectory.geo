@@ -18,6 +18,7 @@ Line(7) = {7, 8};
 Line(8) = {8, 9};
 Line(9) = {9, 1};
 Line(10) = {5, 8};
+Line(11) = {3, 9}
 
 Curve Loop(11) = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 Curve Loop(12) = {-6, -5, 10, -7};
@@ -27,6 +28,7 @@ Plane Surface(2) = {12};
 
 
 Physical Curve("left", 7) = {1};
+Physical Curve("right", 9) = {11};
 Physical Curve("rightcorner", 8) = {3};
 Physical Surface("beam", 3) = {1};
 Physical Surface("omega", 4) = {2};
